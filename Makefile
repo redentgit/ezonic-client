@@ -8,4 +8,4 @@ buildDir = bin
 all: client-bin
 
 client-bin:
-	gcc src/*.c $(cflags) -Iinclude -o $(buildDir)/ezonic -lws2_32
+	gcc src/*.c $(cflags) -Iinclude -o $(buildDir)/ezonic
